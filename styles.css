@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;1,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+}
+
+h1, h3, h4, h5 {
+    margin: 0;
+}
+
+.link {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: x-large;
+    text-decoration: none;
+    color: #5972a5;
+    text-shadow: 2px 2px #80A4ED;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    max-width: 100%;
+    background-size: contain;
+    border-radius: 100%;
+}
+
+img:hover {
+    opacity: 0.5;
+}
+
+h5 {
+    margin: 0.5em;
+}
+
+.hero {
+    background: linear-gradient(180deg, rgba(188, 211, 242, 1) 50%, rgba(230, 225, 197, 1) 95%);        
+    padding: 5em;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30%;
+}
+
+.title {
+    font-size: 2.5em;
+    color: #5972a5;
+    text-shadow: 2px 2px #80A4ED;
+}
+
+.hero h2 {
+    font-size: large;
+}
+
+.places {
+    background: linear-gradient(180deg, rgba(230, 225, 197, 1) 85%, rgba(212, 203, 146, 1) 100%);
+    padding: 1em 3em 6em;
+    height: 30%;
+}
+
+.places h3{
+    margin-bottom: 1em;
+}
+
+.places-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.place {
+    width: 25%;
+}
+
+.guide {
+    padding: 3em;
+    height: 30%;
+    background-color: #D4CB92;
+}
+
+/* Media queries */
+@media screen and (max-width: 1200px) {
+    .place {
+        width: 32%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .places-section {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .place {
+        width: 60%;
+        margin: 2em auto;
+    }
+}
