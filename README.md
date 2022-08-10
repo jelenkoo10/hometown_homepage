@@ -24,7 +24,7 @@ Users can see:
 
 ### Links
 
-- Live Site URL: [Hometown Homepage](https://jelenkoo10.github.io/hometown_homepage/E)
+- Live Site URL: [Hometown Homepage](https://jelenkoo10.github.io/hometown_homepage/)
 
 ## Process
 
